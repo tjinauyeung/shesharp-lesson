@@ -1,0 +1,129 @@
+@import 'reset.css';
+@import 'header.css';
+
+/********************
+ * Typography
+ ********************/
+
+html {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2, li, p {
+  line-height: 1.8;
+}
+
+.section-title {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/********************
+ * Landing
+ ********************/
+
+.landing {
+  background: #FFB288 url('landing-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+.landing-title {
+  font-size: 100px;
+}
+
+.landing-subtitle {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+/********************
+ * Benefits
+ ********************/
+
+.benefits {
+  padding: 120px;
+  text-align: center;
+}
+
+.benefits-row {
+  display: flex;
+  justify-content: center;
+
+  /* make it responsive */
+  flex-wrap: wrap;
+}
+
+.benefits-column {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 50px;
+
+  /* make it responsive */
+  min-width: 300px;
+}
+
+.benefits-icon {
+  margin-bottom: 50px;
+}
+
+/********************
+ * Banana Facts
+ ********************/
+
+.facts {
+  padding: 120px;
+  background-color: #FFF0B9;
+  display: flex;
+
+  /* make it responsive */
+  flex-wrap: wrap;
+}
+
+.facts ol,
+.facts h2 {
+  /* make it responsive */
+  width: 50%;
+  min-width: 300px;
+}
+
+.facts li {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+/********************
+ * Contact
+ ********************/
+
+.contact {
+  padding: 120px;
+  min-height: 100vh;
+  background: url('contact-bg.png') no-repeat right top;
+}
+
+/********************
+ * Footer
+ ********************/
+
+footer {
+  background-color: #222;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer span {
+  border-bottom: 2px solid #fff;
+}

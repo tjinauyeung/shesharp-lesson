@@ -1,0 +1,15 @@
+html {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2, li, p {
+  line-height: 1.8;
+}
+
+.section-title {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}

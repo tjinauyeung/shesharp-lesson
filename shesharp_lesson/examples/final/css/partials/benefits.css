@@ -1,0 +1,25 @@
+.benefits {
+  padding: 120px;
+  text-align: center;
+}
+
+.benefits-row {
+  display: flex;
+  justify-content: center;
+
+  /* make it responsive */
+  flex-wrap: wrap;
+}
+
+.benefits-column {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 50px;
+
+  /* make it responsive */
+  min-width: 300px;
+}
+
+.benefits-icon {
+  margin-bottom: 50px;
+}

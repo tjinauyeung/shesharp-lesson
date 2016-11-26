@@ -1,0 +1,18 @@
+.landing {
+  background: #FFB288 url('../../assets/landing-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+.landing-title {
+  font-size: 100px;
+}
+
+.landing-subtitle {
+  font-weight: 400;
+  font-size: 28px;
+}

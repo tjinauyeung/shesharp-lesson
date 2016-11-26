@@ -1,0 +1,31 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  padding: 35px 50px;
+
+  /* positions its content to right side of the element */
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.nav-logo {
+  color: #fff;
+
+  /* push .nav-logo back to the left */
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-left: 75px;
+}

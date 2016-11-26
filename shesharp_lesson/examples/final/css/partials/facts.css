@@ -1,0 +1,21 @@
+.facts {
+  padding: 120px;
+  background-color: #FFF0B9;
+  display: flex;
+
+  /* make it responsive */
+  flex-wrap: wrap;
+}
+
+.facts ol,
+.facts h2 {
+  /* make it responsive */
+  width: 50%;
+  min-width: 300px;
+}
+
+.facts li {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}

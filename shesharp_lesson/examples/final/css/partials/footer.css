@@ -1,0 +1,13 @@
+footer {
+  background-color: #222;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer span {
+  border-bottom: 2px solid #fff;
+}

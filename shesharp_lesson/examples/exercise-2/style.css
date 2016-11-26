@@ -1,0 +1,109 @@
+@import 'reset.css';
+@import 'header.css';
+
+/****************
+* Landing
+****************/
+
+.landing {
+  background-color: #FFB288;
+
+  height: 100vh;
+  padding: 50px;
+
+  /* positions its content to bottom of the element */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landing h1 {
+  font-size: 120px;
+}
+
+.landing h2 {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+
+/********************
+ * Typography
+ ********************/
+
+html {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2, li, p {
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+/****************
+* Instructions
+*
+* Follow along with the lesson and start doing the exercises in numeric order
+* Structure your CSS by writing the css blocks in the correct section.
+****************/
+
+
+
+
+
+
+/****************
+* Benefits
+****************/
+/* 
+EXERCISE 08 - Create three columns in the benefits section
+HINT: use `display: flex` to get them to align as columns
+*/
+
+
+
+/****************
+* Facts
+****************/
+/* 
+EXERCISE 09 - Create two columns
+HINT: Look at benefits section 
+*/
+
+
+/****************
+* Contact
+****************/
+/* 
+EXERCISE 10 - Apply dimension and an image to this section 
+Make sure positioning and size is correct.
+*/
+
+
+
+/****************
+* Footer
+****************/
+
+footer {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* 
+EXERCISE (BONUS) - Apply interesting hover effects to the links.
+EXERCISE (BONUS) - Make your site mobile friendly without using media-queries.
+EXERCISE (BONUS) - Structure your css by seperating the CSS into multiple files and use @import to reassemble into style.css
+*/
+
+
