@@ -7,3 +7,5 @@ This repo contains all the assets for the presentation given at the shesharp mee
 - Step by step tutorial on building a simple landingpage
 - Pdf of the presentation
 - Examples and exercises
+
+For a demo of the landingpage visit [here](http://www.tjinauyeung.nl/bananas/)
